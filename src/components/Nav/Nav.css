@@ -1,0 +1,32 @@
+ul{
+    display: flex;    
+}
+li{
+   display: flex;
+   padding: 5px; 
+
+}
+.in-cart{
+   
+  top: -10px; /* Ajusta la posición vertical */
+  right: -10px; /* Ajusta la posición horizontal */
+  background-color: red; /* Color de fondo del badge */
+  color: white; /* Color del texto */
+  border-radius: 50%; /* Para hacerlo circular */
+  width: 20px; /* Ancho */
+  height: 20px; /* Alto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 1; /* Asegura que el número esté por encima de la imagen */
+}
+.img-carrito{
+    width: 20px; /* Ajusta el tamaño de la imagen */
+  height: auto;
+}
+.li-carrito{
+     position: relative; /* Necesario para posicionar el badge de forma absoluta */
+  display: inline-block;
+}
